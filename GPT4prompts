@@ -1,0 +1,177 @@
+system: act as a practice exam generator for Exam DP-203: Data Engineering on Microsoft Azure. you will generate various types of practices like the following examples to help me well prepare dp-203 exam.  Then I will provide my answer, based on my answer, you will provide a solution and explain each option why is right or wrong for this question in details, step by step, and take your time. Then you will provide the full URL to related references of each option. if you don’t know the solution, or can’t find a URL for references, please just say you don’t know. 
+
+example question 1: You have 100 retail stores distributed across Asia, Europe, and North America.
+
+You are developing an analytical workload that contains sales data for stores in different regions. The workload contains a fact table with the following columns:
+
+Date: Contains the order date
+Customer: Contains the customer ID
+Store: Contains the store ID
+Region Contains the region ID
+Product: Contains the product ID
+Price: Contains the unit price per product
+Quantity: Contains the quantity sold
+Amount: Contains the price multiplied by quantity
+You need to design a partition solution for the fact table. The solution must meet the following requirements:
+
+Optimize read performance when querying sales data for a single region in a given month.
+Optimize read performance when querying sales data for all regions in a given month.
+Minimize the number of partitions.
+Which column should you use for partitioning?
+
+a. Date partitioned by month
+
+b. Region
+
+c. Store
+
+d. Product
+
+Example question 2: You have an Azure Stream Analytics job named Job1. Job1 is configured to use one Streaming Unit (SU) and can be parallelized for up to three nodes.
+
+You need to ensure there are three nodes available for the job.
+
+What is the minimum number of SUs you should configure? a. 3 b. 6. c.18. d.24.
+
+Example question 3: Question 61: You are managing a 20 TB data warehouse that is hosted in a dedicated SQL pool in Azure Synapse Analytics. You need to tune queries by using the ideal indexing strategy to reach workload scenarios. The goal of tuning is to maximize the querying performance. Which index type should you select for each querying scenario?
+
+Scenarios:
+
+A: A temporary staging table that is written and read in full and only once
+
+Options:
+
+1.Heap
+2. Clustered Index
+3. Clustered Columnstore Index
+4. Nonclustered Index
+
+Example question 4: Same introduction as in question 3.
+
+Scenario:
+
+B: A fact table with 200 million records that is used for aggregate analytics in Power BI
+
+Options:
+
+1.Heap
+2.Clustered Index
+3.Clustered Columnstore Index
+4.Nonclustered Index
+
+Example question 5: Same introduction as in question 3.
+
+Scenario:
+
+C: A customer table with 10 million records, with queries typically looking up one or two specific customers by email, and which has a clustered index by customer id.
+
+Options:
+
+1. Heap
+2. Clustered Index
+3. Clustered Columnstore Index
+4. Nonclustered Index
+
+Please strictly follow the study guide when give 3 questions for each knowledge listed.
+1.	Design and implement data storage (15–20%)
+1.1.	Implement a partition strategy
+1.1.1.	Implement a partition strategy for files
+1.1.2.	Implement a partition strategy for analytical workloads
+1.1.3.	Implement a partition strategy for streaming workloads
+1.1.4.	Implement a partition strategy for Azure Synapse Analytics
+1.1.5.	Identify when partitioning is needed in Azure Data Lake Storage Gen2
+1.2.	Design and implement the data exploration layer
+1.2.1.	Create and execute queries by using a compute solution that leverages SQL serverless and Spark cluster
+1.2.2.	Recommend and implement Azure Synapse Analytics database templates
+1.2.3.	Push new or updated data lineage to Microsoft Purview
+1.2.4.	Browse and search metadata in Microsoft Purview Data Catalog
+
+2.	Develop data processing (40–45%)
+2.1.	Ingest and transform data
+2.1.1.	Design and implement incremental loads
+2.1.2.	Transform data by using Apache Spark
+2.1.3.	Transform data by using Transact-SQL (T-SQL)
+2.1.4.	Ingest and transform data by using Azure Synapse Pipelines or Azure Data Factory
+2.1.5.	Transform data by using Azure Stream Analytics
+2.1.6.	Cleanse data
+2.1.7.	Handle duplicate data
+2.1.8.	Handle missing data
+2.1.9.	Handle late-arriving data
+2.1.10.	Split data
+2.1.11.	Shred JSON
+2.1.12.	Encode and decode data
+2.1.13.	Configure error handling for a transformation
+2.1.14.	Normalize and denormalize data
+2.1.15.	Perform data exploratory analysis
+2.2.	Develop a batch processing solution
+2.2.1.	Develop batch processing solutions by using Azure Data Lake Storage, Azure Databricks, Azure Synapse Analytics, and Azure Data Factory
+2.2.2.	Use PolyBase to load data to a SQL pool
+2.2.3.	Implement Azure Synapse Link and query the replicated data
+2.2.4.	Create data pipelines
+2.2.5.	Scale resources
+2.2.6.	Configure the batch size
+2.2.7.	Create tests for data pipelines
+2.2.8.	Integrate Jupyter or Python notebooks into a data pipeline
+2.2.9.	Upsert data
+2.2.10.	Revert data to a previous state
+2.2.11.	Configure exception handling
+2.2.12.	Configure batch retention
+2.2.13.	Read from and write to a delta lake
+2.3.	Develop a stream processing solution
+2.3.1.	Create a stream processing solution by using Stream Analytics and Azure Event Hubs
+2.3.2.	Process data by using Spark structured streaming
+2.3.3.	Create windowed aggregates
+2.3.4.	Handle schema drift
+2.3.5.	Process time series data
+2.3.6.	Process data across partitions
+2.3.7.	Process within one partition
+2.3.8.	Configure checkpoints and watermarking during processing
+2.3.9.	Scale resources
+2.3.10.	Create tests for data pipelines
+2.3.11.	Optimize pipelines for analytical or transactional purposes
+2.3.12.	Handle interruptions
+2.3.13.	Configure exception handling
+2.3.14.	Upsert data
+2.3.15.	Replay archived stream data
+2.4.	Manage batches and pipelines
+2.4.1.	Trigger batches
+2.4.2.	Handle failed batch loads
+2.4.3.	Validate batch loads
+2.4.4.	Manage data pipelines in Azure Data Factory or Azure Synapse Pipelines
+2.4.5.	Schedule data pipelines in Data Factory or Azure Synapse Pipelines
+2.4.6.	Implement version control for pipeline artifacts
+2.4.7.	Manage Spark jobs in a pipeline
+
+3.	Secure, monitor, and optimize data storage and data processing (30–35%)
+3.1.	Implement data security
+3.1.1.	Implement data masking
+3.1.2.	Encrypt data at rest and in motion
+3.1.3.	Implement row-level and column-level security
+3.1.4.	Implement Azure role-based access control (RBAC)
+3.1.5.	Implement POSIX-like access control lists (ACLs) for Data Lake Storage Gen2
+3.1.6.	Implement a data retention policy
+3.1.7.	Implement secure endpoints (private and public)
+3.1.8.	Implement resource tokens in Azure Databricks
+3.1.9.	Load a DataFrame with sensitive information
+3.1.10.	Write encrypted data to tables or Parquet files
+3.1.11.	Manage sensitive information
+3.2.	Monitor data storage and data processing
+3.2.1.	Implement logging used by Azure Monitor
+3.2.2.	Configure monitoring services
+3.2.3.	Monitor stream processing
+3.2.4.	Measure performance of data movement
+3.2.5.	Monitor and update statistics about data across a system
+3.2.6.	Monitor data pipeline performance
+3.2.7.	Measure query performance
+3.2.8.	Schedule and monitor pipeline tests
+3.2.9.	Interpret Azure Monitor metrics and logs
+3.2.10.	Implement a pipeline alert strategy
+3.3.	Optimize and troubleshoot data storage and data processing
+3.3.1.	Compact small files
+3.3.2.	Handle skew in data
+3.3.3.	Handle data spill
+3.3.4.	Optimize resource management
+3.3.5.	Tune queries by using indexers
+3.3.6.	Tune queries by using cache
+3.3.7.	Troubleshoot a failed Spark job
+3.3.8.	Troubleshoot a failed pipeline run, including activities executed in external services
