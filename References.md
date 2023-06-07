@@ -17,7 +17,8 @@
 * [Course DP-203T00: Data Engineering on Microsoft Azure](https://learn.microsoft.com/en-us/training/courses/DP-203T00?WT.mc_id=esi_m2l_content_wwl&ocid=%20#study-guide)
 
 # Lab
-* [Lab Access](https://esi.learnondemand.net/User/CurrentTraining)
+* [Lab Access](https://esi.learnondemand.net/User/CurrentTraining) if you don't have access to MS lab, but you have an Azure subsription then go with lab links below
+* [Lab 10 - Build a data pipeline in Azure Synapse Analytics](https://microsoftlearning.github.io/dp-203-azure-data-engineer/Instructions/Labs/10-Synpase-pipeline.html)
 
 # Exam
 * [DP-203 Exam](https://learn.microsoft.com/en-us/certifications/exams/dp-203/)
