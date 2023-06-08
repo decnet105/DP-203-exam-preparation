@@ -18,6 +18,7 @@
 
 # Lab
 * [Lab Access](https://esi.learnondemand.net/User/CurrentTraining) if you don't have access to MS lab, but you have an Azure subsription then go with lab links below
+* [Lab 9 - Load Data into a Relational Data Warehouse](https://microsoftlearning.github.io/dp-203-azure-data-engineer/Instructions/Labs/09-Load-Data-into-Data-Warehouse.html)
 * [Lab 10 - Build a data pipeline in Azure Synapse Analytics](https://microsoftlearning.github.io/dp-203-azure-data-engineer/Instructions/Labs/10-Synpase-pipeline.html)
 * [Lab 11 - Use an Apache Spark notebook in a pipeline](https://microsoftlearning.github.io/dp-203-azure-data-engineer/Instructions/Labs/11-Spark-nobook-in-Synapse-Pipeline.html)
 * [Lab 14 - Use Azure Synapse Link for Azure Cosmos DB](https://microsoftlearning.github.io/dp-203-azure-data-engineer/Instructions/Labs/14-Synapselink-cosmos.html)
