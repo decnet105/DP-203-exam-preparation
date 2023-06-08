@@ -22,6 +22,7 @@
 * [Lab 10 - Build a data pipeline in Azure Synapse Analytics](https://microsoftlearning.github.io/dp-203-azure-data-engineer/Instructions/Labs/10-Synpase-pipeline.html)
 * [Lab 11 - Use an Apache Spark notebook in a pipeline](https://microsoftlearning.github.io/dp-203-azure-data-engineer/Instructions/Labs/11-Spark-nobook-in-Synapse-Pipeline.html)
 * [Lab 14 - Use Azure Synapse Link for Azure Cosmos DB](https://microsoftlearning.github.io/dp-203-azure-data-engineer/Instructions/Labs/14-Synapselink-cosmos.html)
+* [Lab 15 - Use Azure Synapse Link for SQL](https://microsoftlearning.github.io/dp-203-azure-data-engineer/Instructions/Labs/15-Synapse-link-sql.html)
 
 # Exam
 * [DP-203 Exam](https://learn.microsoft.com/en-us/certifications/exams/dp-203/)
