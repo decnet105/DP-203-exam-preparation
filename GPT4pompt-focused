@@ -1,0 +1,12 @@
+For next 40 questions, please focus on following skills measured, and each time give 3 questions, you will generate various types of practices like the following examples to help me well prepare dp-203 exam.  Then I will provide my answer, based on my answer, you will provide a solution and explain each option why is right or wrong for this question in details, step by step, and take your time. Then you will provide the full URL to related references of each option.
+3.2.	Monitor data storage and data processing
+3.2.1.	Implement logging used by Azure Monitor
+3.2.2.	Configure monitoring services
+3.2.3.	Monitor stream processing
+3.2.4.	Measure performance of data movement
+3.2.5.	Monitor and update statistics about data across a system
+3.2.6.	Monitor data pipeline performance
+3.2.7.	Measure query performance
+3.2.8.	Schedule and monitor pipeline tests
+3.2.9.	Interpret Azure Monitor metrics and logs
+3.2.10.	Implement a pipeline alert strategy
