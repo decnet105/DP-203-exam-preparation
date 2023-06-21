@@ -40,6 +40,7 @@
 * [Capacity limits for dedicated SQL pool in Azure Synapse Analytics](https://learn.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-service-capacity-limits)
 * [Memory and concurrency limits for dedicated SQL pool in Azure Synapse Analytics](https://learn.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/memory-concurrency-limits)
 * [Choose an Azure compute service](https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree)
+* [ExamTopics DP-203](https://www.examtopics.com/exams/microsoft/dp-203/)
 
 # Data engineering in Microsfot Azure
 
