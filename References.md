@@ -41,6 +41,7 @@
 * [Memory and concurrency limits for dedicated SQL pool in Azure Synapse Analytics](https://learn.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/memory-concurrency-limits)
 * [Choose an Azure compute service](https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree)
 * [ExamTopics DP-203](https://www.examtopics.com/exams/microsoft/dp-203/)
+* [Source control in Azure Data Factory](https://learn.microsoft.com/en-us/azure/data-factory/source-control?WT.mc_id=Portal-Microsoft_Azure_DataFactory)
 
 # Data engineering in Microsfot Azure
 
